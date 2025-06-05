@@ -3,5 +3,6 @@ pandas
 plotly
 Pillow
 openai
+tabulate
 langchain_experimental
 langchain_community
