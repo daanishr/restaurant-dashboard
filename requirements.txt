@@ -2,5 +2,6 @@ streamlit
 pandas
 plotly
 Pillow
+openai
 langchain_experimental
 langchain_community
