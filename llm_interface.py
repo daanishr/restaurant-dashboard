@@ -25,7 +25,7 @@ from langchain_community.chat_models import ChatOpenAI
 # ------------------------------------------------------------------
 # Configuration
 # ------------------------------------------------------------------
-OPENAI_API_KEY = "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"  # Replace with your actual key
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 DATA_PATH_PATTERN = "output_2025-03-*.json"
