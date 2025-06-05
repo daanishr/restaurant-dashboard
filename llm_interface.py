@@ -67,7 +67,7 @@ def create_agent(df: pd.DataFrame):
 
 def main():
     st.set_page_config(page_title="Restaurant Sales Assistant", layout="wide")
-    st.title("📊 Restaurant Sales Assistant (1–9 March 2025)")
+    st.title("📊 Papaya BKC Restaurant Sales Assistant (1–9 March 2025)")
 
     with st.spinner("Loading sales data..."):
         records = load_json_records(DATA_PATH_PATTERN)
