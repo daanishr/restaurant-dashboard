@@ -1,0 +1,6 @@
+streamlit
+pandas
+plotly
+Pillow
+langchain_experimental
+langchain_community
